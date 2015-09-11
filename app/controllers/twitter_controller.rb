@@ -50,18 +50,6 @@ class TwitterController < ApplicationController
 
   def twitter_profile
     client = get_client
-    puts "\n\n\nTwitter client methods:"
-    puts "\n"
-    puts client.methods.sort.inspect
-    puts "\n"
-    puts client.mentions_timeline.inspect
-    puts "\n"
-    puts client.friends.inspect
-    puts "\n"
-    puts client.followers.inspect
-    puts "\n"
-    puts client.following.inspect
-    puts "\n\n\n"
     @user_timeline = client.user_timeline
     @home_timeline = client.home_timeline
   end
