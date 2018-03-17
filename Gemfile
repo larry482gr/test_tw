@@ -84,9 +84,6 @@ group :production do
 end
 
 gem 'oauth'
-gem 'twitter_oauth'
 gem 'devise'
 gem 'twitter'
 gem 'twitter-bootstrap-rails'
-
-gem 'rename'

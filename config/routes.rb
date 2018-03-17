@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root to: 'twitter#index'
 
   resources :twitter
+  resources :contacts
   match '/twitter_profile' => 'twitter#twitter_profile', via: [:get, :post]
   match '/oauth_account' => 'twitter#oauth_account', via: [:get, :post]
   match '/twitter_oauth_url' => 'twitter#generate_twitter_oauth_url', via: [:get, :post]
