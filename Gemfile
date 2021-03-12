@@ -11,7 +11,7 @@ gem 'less'
 gem 'less-rails'
 gem 'sass'
 gem 'sass-rails'
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
